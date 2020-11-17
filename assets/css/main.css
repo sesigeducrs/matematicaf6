@@ -103,6 +103,21 @@ section {
 	display: block;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
+
+.caixa-destaque {
+	border: 2px solid #fff;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.caixa-destaque.arredondada {
+	border-radius: 6px;
+}
+
 body {
 	line-height: 1;
 }
@@ -126,6 +141,7 @@ p {
 img {
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px black;
+	margin-bottom: 20px;
 }
 
 img.formula {
@@ -314,7 +330,7 @@ i {
 }
 
 p {
-	margin: 0 0 2em 0;
+	margin: 0 0 1em 0;
 	text-align: justify !important;
 }
 
@@ -433,6 +449,8 @@ blockquote {
 	font-style: italic;
 	margin: 0 0 2em 0;
 	padding: 0.5em 0 0.5em 2em;
+	opacity: 1;
+	color: #fff;
 }
 
 code {
